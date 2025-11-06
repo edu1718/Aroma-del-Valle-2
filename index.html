@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aromas del Valle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="Css/estilos.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="logo">☕ Aromas del Valle</div>
+
+        <!-- Botón del menú hamburguesa -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navegación -->
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#promocion">Promoción</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-texto">
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">
+                    Descubre el sabor auténtico del café artesanal
+                </h1>
+                <p class="animate__animated animate__fadeInLeft animate__delay-2s">
+                    En Aromas del Valle cultivamos pasión en cada grano. Participa en nuestra promoción especial y
+                    disfruta del mejor café del valle.
+                </p>
+                <a href="#promocion" class="btn-hero animate__animated animate__fadeInLeft animate__delay-3s">
+                    Participar ahora
+                </a>
+            </div>
+
+            <div class="hero-img animate__animated animate__fadeInRight animate__delay-2s">
+                <img src="Img/heroCafe.jpg" alt="Taza de café artesanal">
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <div class="nosotros-contenido">
+            <!-- Texto principal -->
+            <div class="texto" data-aos="fade-right">
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    En <strong>Café Aromas del Valle</strong>, creemos que cada taza cuenta una historia.
+                    Desde nuestros comienzos en una pequeña finca, hemos cultivado café artesanal con
+                    pasión, dedicación y respeto por la naturaleza.
+                </p>
+                <p>
+                    Nuestro compromiso es ofrecer una experiencia auténtica, destacando los sabores
+                    únicos de los granos cultivados a mano por productores locales.
+                </p>
+                <p>
+                    Queremos compartir contigo el aroma, el sabor y la calidez de un café hecho con el corazón.
+                </p>
+
+                <!-- Datos adicionales -->
+                <div class="datos-extra" data-aos="fade-up">
+                    <div class="dato">
+                        <h3>10+</h3>
+                        <p>Años de experiencia</p>
+                    </div>
+                    <div class="dato">
+                        <h3>5000+</h3>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                    <div class="dato">
+                        <h3>15</h3>
+                        <p>Variedades de café</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="imagen" data-aos="fade-left">
+                <img src="https://ingenieriademenu.com/wp-content/uploads/2022/04/Como-decorar-una-cafeteria-pequena-con-poco-dinero.jpg"
+                    alt="Café artesanal">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN PRODUCTOS (GRID para desktop/tablet) ===== -->
+    <section id="productos" class="productos-grid">
+        <h2 class="titulo-seccion" data-aos="fade-right">Nuestros Productos</h2>
+        <p class="descripcion-seccion" data-aos="fade-right">
+            Conoce nuestras variedades de café artesanal, elaboradas con dedicación y pasión.
+        </p>
+
+        <div class="contenedor-productos">
+            <div class="producto" data-aos="zoom-in" data-aos-delay="100">
+                <img src="https://www.cooperacionsuiza.pe/wp-content/uploads/2022/10/000893783W-2-1024x683.jpg"
+                    alt="Café en grano">
+                <h3>Café en Grano</h3>
+                <p>Tueste medio, ideal para moler y disfrutar su aroma intenso.</p>
+            </div>
+            <div class="producto" data-aos="zoom-in" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Café molido">
+                <h3>Café Molido</h3>
+                <p>Listo para preparar y deleitarte con su sabor suave y balanceado.</p>
+            </div>
+            <div class="producto" data-aos="zoom-in" data-aos-delay="300">
+                <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Café instantáneo">
+                <h3>Café Instantáneo</h3>
+                <p>Para quienes disfrutan la practicidad sin renunciar al sabor artesanal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN PRODUCTOS (CARRUSEL para móvil) ===== -->
+    <section id="productos-movil" class="productos-movil">
+        <h2 class="titulo-seccion">Nuestros Productos</h2>
+        <p class="descripcion-seccion">
+            Conoce nuestras variedades de café artesanal, elaboradas con dedicación y pasión.
+        </p>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide producto">
+                    <img src="https://www.cooperacionsuiza.pe/wp-content/uploads/2022/10/000893783W-2-1024x683.jpg"
+                        alt="Café en grano">
+                    <h3>Café en Grano</h3>
+                    <p>Tueste medio, ideal para moler y disfrutar su aroma intenso.</p>
+                </div>
+
+                <div class="swiper-slide producto">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Café molido">
+                    <h3>Café Molido</h3>
+                    <p>Listo para preparar y deleitarte con su sabor suave y balanceado.</p>
+                </div>
+
+                <div class="swiper-slide producto">
+                    <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Café instantáneo">
+                    <h3>Café Instantáneo</h3>
+                    <p>Para quienes disfrutan la practicidad sin renunciar al sabor artesanal.</p>
+                </div>
+            </div>
+
+            <!-- Paginación -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- ===== SECCIÓN PROMOCIÓN ===== -->
+    <section id="promocion" class="promocion">
+        <div class="contenedor-promocion">
+            <h2>🎁 Encuentra tu café perfecto y gana un cupón del 20%</h2>
+            <p>Completa este breve formulario y recibe un cupón exclusivo para disfrutar de nuestras variedades de café
+                artesanal.</p>
+
+            <form id="formPromocion" class="form-promocion">
+                <!-- Nombre completo -->
+                <div class="campo-form">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana Rodríguez" required>
+                </div>
+
+                <!-- Correo -->
+                <div class="campo-form">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <!-- Frecuencia de consumo -->
+                <div class="campo-form">
+                    <label for="frecuencia">Frecuencia de consumo</label>
+                    <select id="frecuencia" name="frecuencia" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="diario">Diario</option>
+                        <option value="semanal">Semanal</option>
+                        <option value="ocasional">Ocasional</option>
+                    </select>
+                </div>
+
+                <!-- Tipo de café preferido -->
+                <div class="campo-form">
+                    <label>Tipo de café preferido</label>
+                    <div class="checkboxes">
+                        <label><input type="checkbox" name="tipo[]" value="molido"> Molido</label>
+                        <label><input type="checkbox" name="tipo[]" value="en grano"> En grano</label>
+                        <label><input type="checkbox" name="tipo[]" value="instantáneo"> Instantáneo</label>
+                    </div>
+                </div>
+
+                <!-- Comentarios -->
+                <div class="campo-form">
+                    <label for="comentarios">Comentarios o sugerencias</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"
+                        placeholder="Cuéntanos tus preferencias o sugerencias..."></textarea>
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit" class="btn-promocion">Enviar y obtener cupón</button>
+            </form>
+        </div>
+    </section>
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor-contacto" data-aos="fade-right">
+
+            <!-- Columna izquierda: Información -->
+            <div class="info-contacto">
+                <h2>📍 Contáctanos</h2>
+                <p>Estamos encantados de atenderte. Encuéntranos o escríbenos para resolver tus dudas o pedidos
+                    especiales.</p>
+
+                <ul class="lista-contacto">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span><strong>Dirección:</strong> Calle Aromas 456, Valle Verde, Perú</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span><strong>Teléfono:</strong> +51 987 654 321</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span><strong>Correo:</strong> contacto@aromasdelvalle.com</span>
+                    </li>
+                </ul>
+
+                <div class="horario">
+                    <h4>🕒 Horario de atención</h4>
+                    <p>Lunes a Sábado: 8:00 a.m. - 8:00 p.m.</p>
+                    <p>Domingo: 9:00 a.m. - 2:00 p.m.</p>
+                </div>
+            </div>
+
+            <!-- Columna derecha: Mapa -->
+            <div class="mapa-contacto" data-aos="fade-left" data-aos-delay="300">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.847128627288!2d-77.0427931250508!3d-12.127897144043703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c87b7b7e7e5f%3A0xe3a28d5a4e3a5e85!2sLima%2C%20Per%C3%BA!5e0!3m2!1ses!2spe!4v1693437505170!5m2!1ses!2spe"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" data-aos="fade-up">
+        <div class="footer-contenido">
+
+            <!-- Redes sociales -->
+            <div class="redes-sociales">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+
+            <!-- Texto -->
+            <p class="texto-footer">
+                © 2025 <strong>Café Aromas del Valle</strong> – Todos los derechos reservados.
+            </p>
+
+            <!-- Enlace a políticas -->
+            <a href="#" class="politicas">Política de Privacidad</a>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Js/script.js"></script>
+    <script>
+        // ==== ANIMACIÓN AL HACER SCROLL ====
+        const elementsLeft = document.querySelectorAll('.hidden-left');
+        const elementsRight = document.querySelectorAll('.hidden-right');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        elementsLeft.forEach(el => observer.observe(el));
+        elementsRight.forEach(el => observer.observe(el));
+
+        window.addEventListener('scroll', () => {
+            const nosotros = document.querySelector('.nosotros');
+            const rect = nosotros.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rect.top < windowHeight - 100) {
+                nosotros.classList.add('visible');
+            }
+        });
+        window.addEventListener("load", () => {
+            document.body.style.overflowX = "hidden";
+            setTimeout(() => window.dispatchEvent(new Event("resize")), 600);
+        });
+
+        AOS.init({
+            duration: 1200,        // Duración de cada animación
+            easing: 'ease-in-out', // Transición suave
+            once: false,           // Permite que se repita al volver a aparecer
+            mirror: true,          // <-- Este parámetro activa animación al hacer scroll hacia arriba
+            offset: 100,           // Inicia la animación un poco antes de que aparezca en pantalla
+            anchorPlacement: 'top-bottom' // Controla desde dónde se dispara la animación
+        });
+
+    </script>
+
+</body>
+
+</html>
